@@ -1,0 +1,13 @@
+<P>Hello, Would!</P>
+<P>
+  <%=10 + 1 %>
+</P>
+<p>
+  <%= @num %>
+</p>
+
+<ul>
+  <% @users.each do |user| %>
+    <li><%= user.id %>, <%= user.name %>, <%= user.age %></li>
+  <% end %>
+</ul>
